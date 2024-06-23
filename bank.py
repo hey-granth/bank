@@ -71,6 +71,7 @@ class Herapheri:
                 if customer.details[3] >= amount:
                     customer.details[3] -= amount
                     other_customer.details[3]+=amount
+                    print("GAYA PAISA😭 ")
                 else:
                     print("Insufficient balance.")
             else:
